@@ -121,7 +121,7 @@ Subsetting to only variables used in the analysis
 ```{r}
 head(lh)
 
-myvars <- c('p_death', 'p_sep', 'cmv_tert_v2', 'Il6_binary', 'crp_binary', 'tnf_Binary', 
+myvars <- c('p_death', 'p_sep', 'Il6_binary', 'crp_binary', 'tnf_Binary', 
 'RAGENDER' , 'R13AGEY_B' , 'parent_ed' , 'edu' ,'smoke' , 'R13SHLTC' , 'R13HLTC' , 'R13CONDE' , 'R13ADLC', 'eligiblev2', 'hhidpn', 'PVBSWGTR' , 'race_eth', 'psep_bin' , 'pdeath_bin' , 'ln_il6' , 'cmv_cont'  , 'ln_tnf' , 'ln_crp' , 'ln_cmv' , 'cmv_contv2' , 'R13BMI' )
 
 lh2 <- lh[myvars] 
